@@ -1,0 +1,27 @@
+Reference, Quantity, Value, Footprint, Datasheet, Mouser_Part_No
+C11 C12 C23 C24 C35 C36 C47 C48 ,8,100u/35V,fdsp_capacitor:C_Radial_D8_L11.5_P3.5,http://www.mouser.com/ds/2/315/ABA0000C1012-947489.pdf,667-EEU-FC1V101
+C13 C14 C25 C26 C37 C38 C49 C50 ,8,220n/25V,fdsp_capacitor:C_0603,http://www.murata.com/products/catalog/pdf/c02e.pdf,81-GRM18R71E223KA01J
+C15 C16 C27 C28 C39 C40 C51 C52 ,8,680n/50V,fdsp_capacitor:C_1206,http://www.murata.com/products/catalog/pdf/c03e.pdf,81-GCM31CR71H684KA7L
+C2 ,1,4u7/50V,fdsp_capacitor:C_1206,http://www.murata.com/products/catalog/pdf/c02e.pdf,81-GRM31CR71H475KA2L
+C1 C10 C21 C22 C3 C33 C34 C45 C46 C9 ,10,100n/50V,fdsp_capacitor:C_0603,http://www.murata.com/products/catalog/pdf/c02e.pdf,81-GRM39X104K50D
+C4 ,1,C,fdsp_capacitor:C_1206,
+C17 C18 C19 C20 C29 C30 C31 C32 C41 C42 C43 C44 C5 C6 C7 C8 ,16,1u/16V,fdsp_capacitor:C_0603,http://www.murata.com/products/catalog/pdf/c02e.pdf,81-GRM188R71C105KE5D
+D1 ,1,SBR10E45P5,fdsp_diode:PowerDI5,http://www.mouser.com/ds/2/115/SBR10E45P5-756885.pdf,621-SBR10E45P5-7
+D2 ,1,5.0SMDJ28CA,fdsp_diode:SMC,http://www.mouser.com/ds/2/240/Littelfuse_TVS-Diodes_5.0SMDJ-278006.pdf,576-5.0SMDJ28CA
+D3 ,1,PMEG6010ER,fdsp_diode:SOD-123W,http://www.mouser.com/ds/2/302/PMEG6010ER-843472.pdf,771-PMEG6010ER115
+D4 D5 D6 D7 D8 ,5,LED,fdsp_capacitor:C_0603,http://www.mouser.com/ds/2/445/150060GS75000-368921.pdf,710-150060GS75000
+FB1 ,1,470,fdsp_capacitor:C_0603,http://www.mouser.com/ds/2/281/c31e-794748.pdf,81-BLM18PG471SN1D
+FB2 ,1,115,fdsp_capacitor:C_3312,www.lairdtech.com/products/28f0181-1sr-10,875-28F0181-1SR-10
+JP1 ,1,JUMPER,fdsp_pinheader:Pin_Header_Straight_1x02,
+L1 ,1,47u,fdsp_inductor:L_1207,http://www.mouser.com/ds/2/212/F3115-532756.pdf,80-L1207C470KPWST
+L2 L3 L4 L5 L6 L7 L8 L9 ,8,15u,fdsp_inductor:Choke_SMD_6.0x6.0,http://www.mouser.com/ds/2/281/product-1023288.pdf,81-1264EY-150MP3
+P1 P3 P4 P5 P6 ,5,CONN_01X02,fdsp_connector:RIACON101-2,http://www.mouser.com/ds/2/418/NG_CD_796911_B2-715370.pdf,571-796911-2
+P2 ,1,STDCONN,fdsp_connector:IDC_Header_Straight_16pins,http://www.mouser.com/ds/2/445/6120xx21621-265830.pdf,710-61201621621
+R1 R2 ,2,R,fdsp_resistor:R_0603,
+R14 R19 R3 R4 R9 ,5,620,fdsp_resistor:R_0603,http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf,71-CRCW0603-620-E3
+R10 R12 R15 R17 R20 R22 R5 R6 ,8,2k4,fdsp_resistor:R_0603,http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf,71-CRCW0603-2.4K-E3
+R11 R16 R21 R7 ,4,100k,fdsp_resistor:R_0603,http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf,71-CRCW0603-100K-E3
+R13 R18 R8 ,3,22k,fdsp_resistor:R_0603,http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf,71-CRCW0603-22K-E3
+RP1 ,1,33,fdsp_resistor:R_Array_Convex_4x0603,http://www.mouser.com/ds/2/54/ATCAY-777361.pdf,652-CAY16-330J4LF
+U1 ,1,LM2841X,fdsp_housing:SOT23-6_1.7x3.0mm_Pitch0.95mm,http://www.mouser.de/ProductDetail/Texas-Instruments/LM2841XMK-ADJL-NOPB/?qs=sGAEpiMZZMvu8NZDyZ4K0RhgAU4e%252b57x,926-M2841XMKADJLNOPB
+U2 U3 U4 U5 ,4,TAS5720M,fdsp_housing:VQFN-32_4x4mm_Pitch0.4mm,http://www.ti.com/lit/ds/symlink/tas5720m.pdf,595-TAS5720MRSMT

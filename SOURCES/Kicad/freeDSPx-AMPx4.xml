@@ -1,0 +1,2035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>J:/sMn/KiCadProjects/Projects/Studienarbeit/freeDSPx-TDM-AMP/freeDSPx-TDM-AMP.sch</source>
+    <date>06.12.2016 16:24:59</date>
+    <tool>Eeschema 4.0.2-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>freeDSPx-TDM-AMP.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Amp_IC-A/" tstamps="/583C4A10/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Amp_IC-A.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Amp_IC-B/" tstamps="/583C4A50/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Amp_IC-B.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Amp_IC-C/" tstamps="/583C4C7B/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Amp_IC-C.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Amp_IC-D/" tstamps="/583C4CA8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Amp_IC-D.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>LM2841X</value>
+      <footprint>fdsp_housing:SOT23-6_1.7x3.0mm_Pitch0.95mm</footprint>
+      <datasheet>http://www.mouser.de/ProductDetail/Texas-Instruments/LM2841XMK-ADJL-NOPB/?qs=sGAEpiMZZMvu8NZDyZ4K0RhgAU4e%252b57x</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">926-M2841XMKADJLNOPB</field>
+      </fields>
+      <libsource lib="fdsp_regulator" part="LM284x"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58373291</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>3k4</value>
+      <footprint>fdsp_resistor:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">71-CRCW0603-3.4K-E3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583733F1</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k2</value>
+      <footprint>fdsp_resistor:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">71-CRCW0603-1.02K-E3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5837348B</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>47u</value>
+      <footprint>fdsp_inductor:L_1207</footprint>
+      <datasheet>http://www.mouser.com/ds/2/212/F3115-532756.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">80-L1207C470KPWST</field>
+      </fields>
+      <libsource lib="fdsp_device" part="L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5837350A</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10u/35V</value>
+      <footprint>fdsp_capacitor:C_1206</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM319R6YA106KA2D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583736AE</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>22u/10V</value>
+      <footprint>fdsp_capacitor:C_1206</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM31CR70J226KE9L</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583737A8</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>PMEG6010ER</value>
+      <footprint>fdsp_diode:SOD-123W</footprint>
+      <datasheet>http://www.mouser.com/ds/2/302/PMEG6010ER-843472.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">771-PMEG6010ER115</field>
+      </fields>
+      <libsource lib="fdsp_device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58373918</tstamp>
+    </comp>
+    <comp ref="FB2">
+      <value>115</value>
+      <footprint>fdsp_capacitor:C_3312</footprint>
+      <datasheet>www.lairdtech.com/products/28f0181-1sr-10</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">875-28F0181-1SR-10</field>
+      </fields>
+      <libsource lib="fdsp_device" part="FILTER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58374051</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>STDCONN</value>
+      <footprint>fdsp_connector:IDC_Header_Straight_16pins</footprint>
+      <datasheet>http://www.mouser.com/ds/2/445/6120xx21621-265830.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">710-61201621621</field>
+      </fields>
+      <libsource lib="fdsp_connector" part="STDCONN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583CB71C</tstamp>
+    </comp>
+    <comp ref="RP1">
+      <value>33</value>
+      <footprint>fdsp_resistor:R_Array_Convex_4x0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/54/ATCAY-777361.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">652-CAY16-330J4LF</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R_PACK4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583CF200</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/445/150060GS75000-368921.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">710-150060GS75000</field>
+      </fields>
+      <libsource lib="fdsp_device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583DAE11</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SBR10E45P5</value>
+      <footprint>fdsp_diode:PowerDI5</footprint>
+      <datasheet>http://www.mouser.com/ds/2/115/SBR10E45P5-756885.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">621-SBR10E45P5-7</field>
+      </fields>
+      <libsource lib="fdsp_device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583DBD75</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>5.0SMDJ28CA</value>
+      <footprint>fdsp_diode:SMC</footprint>
+      <datasheet>http://www.mouser.com/ds/2/240/Littelfuse_TVS-Diodes_5.0SMDJ-278006.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">576-5.0SMDJ28CA</field>
+      </fields>
+      <libsource lib="fdsp_device" part="TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583DCC2B</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>470</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/c31e-794748.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-BLM18PG471SN1D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="FILTER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583DD402</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n/50V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM39X104K50D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58432430</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n/50V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM39X104K50D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>584327F6</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X02</value>
+      <footprint>fdsp_connector:RIACON101-2</footprint>
+      <datasheet>http://www.mouser.com/ds/2/418/NG_CD_796911_B2-715370.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">571-796911-2</field>
+      </fields>
+      <libsource lib="fdsp_pinhead" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>584403AD</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>620</value>
+      <footprint>fdsp_resistor:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">71-CRCW0603-620-E3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58442CA5</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>22k</value>
+      <footprint>fdsp_resistor:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">71-CRCW0603-22K-E3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>584578CD</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>JUMPER</value>
+      <footprint>fdsp_pinheader:Pin_Header_Straight_1x02</footprint>
+      <datasheet>http://www.mouser.com/ds/2/418/NG_CD_826629_AA_baseFilename-673692.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">571-826646-2</field>
+      </fields>
+      <libsource lib="fdsp_device" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58457BF5</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TAS5720M</value>
+      <footprint>fdsp_housing:VQFN-32_4x4mm_Pitch0.4mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tas5720m.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">595-TAS5720MRSMT</field>
+      </fields>
+      <libsource lib="fdsp_amplifier" part="TAS5720"/>
+      <sheetpath names="/Amp_IC-A/" tstamps="/583C4A10/"/>
+      <tstamp>583C56C9</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n/50V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM39X104K50D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-A/" tstamps="/583C4A10/"/>
+      <tstamp>583C5A85</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>220n/25V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM18R71E223KA01J</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-A/" tstamps="/583C4A10/"/>
+      <tstamp>583C5CCB</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1u/16V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM188R71C105KE5D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-A/" tstamps="/583C4A10/"/>
+      <tstamp>583C7455</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>15u</value>
+      <footprint>fdsp_inductor:Choke_SMD_6.0x6.0</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/product-1023288.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-1264EY-150MP3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="L"/>
+      <sheetpath names="/Amp_IC-A/" tstamps="/583C4A10/"/>
+      <tstamp>583C790C</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>680n/50V</value>
+      <footprint>fdsp_capacitor:C_1206</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c03e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GCM31CR71H684KA7L</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-A/" tstamps="/583C4A10/"/>
+      <tstamp>583C7BDC</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100u/35V</value>
+      <footprint>fdsp_capacitor:C_Radial_D8_L11.5_P3.5</footprint>
+      <datasheet>http://www.mouser.com/ds/2/315/ABA0000C1012-947489.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">667-EEU-FC1V101</field>
+      </fields>
+      <libsource lib="fdsp_device" part="CP"/>
+      <sheetpath names="/Amp_IC-A/" tstamps="/583C4A10/"/>
+      <tstamp>583C80B6</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100k</value>
+      <footprint>fdsp_resistor:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">71-CRCW0603-100K-E3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/Amp_IC-A/" tstamps="/583C4A10/"/>
+      <tstamp>583CAC31</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/445/150060RS75000-368563.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">710-150060RS75000</field>
+      </fields>
+      <libsource lib="fdsp_device" part="LED"/>
+      <sheetpath names="/Amp_IC-A/" tstamps="/583C4A10/"/>
+      <tstamp>583CADF2</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>620</value>
+      <footprint>fdsp_resistor:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">71-CRCW0603-620-E3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/Amp_IC-A/" tstamps="/583C4A10/"/>
+      <tstamp>583CAE8E</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>2k4</value>
+      <footprint>fdsp_resistor:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">71-CRCW0603-2.4K-E3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/Amp_IC-A/" tstamps="/583C4A10/"/>
+      <tstamp>583D9E2C</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01X02</value>
+      <footprint>fdsp_connector:RIACON101-2</footprint>
+      <datasheet>http://www.mouser.com/ds/2/418/NG_CD_796911_B2-715370.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">571-796911-2</field>
+      </fields>
+      <libsource lib="fdsp_pinhead" part="CONN_01X02"/>
+      <sheetpath names="/Amp_IC-A/" tstamps="/583C4A10/"/>
+      <tstamp>583DE26B</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>680n/50V</value>
+      <footprint>fdsp_capacitor:C_1206</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c03e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GCM31CR71H684KA7L</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-A/" tstamps="/583C4A10/"/>
+      <tstamp>5842E5AB</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>15u</value>
+      <footprint>fdsp_inductor:Choke_SMD_6.0x6.0</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/product-1023288.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-1264EY-150MP3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="L"/>
+      <sheetpath names="/Amp_IC-A/" tstamps="/583C4A10/"/>
+      <tstamp>5842E82B</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>220n/25V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM18R71E223KA01J</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-A/" tstamps="/583C4A10/"/>
+      <tstamp>5842EB7C</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1u/16V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM188R71C105KE5D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-A/" tstamps="/583C4A10/"/>
+      <tstamp>584310BB</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1u/16V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM188R71C105KE5D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-A/" tstamps="/583C4A10/"/>
+      <tstamp>5843119A</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n/50V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM39X104K50D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-A/" tstamps="/583C4A10/"/>
+      <tstamp>5843145C</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>2k4</value>
+      <footprint>fdsp_resistor:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">71-CRCW0603-2.4K-E3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/Amp_IC-A/" tstamps="/583C4A10/"/>
+      <tstamp>584423A7</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100u/35V</value>
+      <footprint>fdsp_capacitor:C_Radial_D8_L11.5_P3.5</footprint>
+      <datasheet>http://www.mouser.com/ds/2/315/ABA0000C1012-947489.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">667-EEU-FC1V101</field>
+      </fields>
+      <libsource lib="fdsp_device" part="CP"/>
+      <sheetpath names="/Amp_IC-A/" tstamps="/583C4A10/"/>
+      <tstamp>58441EAE</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1u/16V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM188R71C105KE5D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-A/" tstamps="/583C4A10/"/>
+      <tstamp>58431136</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TAS5720M</value>
+      <footprint>fdsp_housing:VQFN-32_4x4mm_Pitch0.4mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tas5720m.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">595-TAS5720MRSMT</field>
+      </fields>
+      <libsource lib="fdsp_amplifier" part="TAS5720"/>
+      <sheetpath names="/Amp_IC-B/" tstamps="/583C4A50/"/>
+      <tstamp>58459F24</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>100n/50V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM39X104K50D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-B/" tstamps="/583C4A50/"/>
+      <tstamp>58459F45</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>220n/25V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM18R71E223KA01J</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-B/" tstamps="/583C4A50/"/>
+      <tstamp>58459F63</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>1u/16V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM188R71C105KE5D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-B/" tstamps="/583C4A50/"/>
+      <tstamp>58459FB4</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>15u</value>
+      <footprint>fdsp_inductor:Choke_SMD_6.0x6.0</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/product-1023288.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-1264EY-150MP3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="L"/>
+      <sheetpath names="/Amp_IC-B/" tstamps="/583C4A50/"/>
+      <tstamp>58459FBE</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>680n/50V</value>
+      <footprint>fdsp_capacitor:C_1206</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c03e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GCM31CR71H684KA7L</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-B/" tstamps="/583C4A50/"/>
+      <tstamp>58459FC6</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>100u/35V</value>
+      <footprint>fdsp_capacitor:C_Radial_D8_L11.5_P3.5</footprint>
+      <datasheet>http://www.mouser.com/ds/2/315/ABA0000C1012-947489.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">667-EEU-FC1V101</field>
+      </fields>
+      <libsource lib="fdsp_device" part="CP"/>
+      <sheetpath names="/Amp_IC-B/" tstamps="/583C4A50/"/>
+      <tstamp>58459FDE</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>fdsp_resistor:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">71-CRCW0603-100K-E3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/Amp_IC-B/" tstamps="/583C4A50/"/>
+      <tstamp>58459FF1</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/445/150060RS75000-368563.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">710-150060RS75000</field>
+      </fields>
+      <libsource lib="fdsp_device" part="LED"/>
+      <sheetpath names="/Amp_IC-B/" tstamps="/583C4A50/"/>
+      <tstamp>58459FF9</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>620</value>
+      <footprint>fdsp_resistor:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">71-CRCW0603-620-E3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/Amp_IC-B/" tstamps="/583C4A50/"/>
+      <tstamp>5845A001</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>2k4</value>
+      <footprint>fdsp_resistor:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">71-CRCW0603-2.4K-E3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/Amp_IC-B/" tstamps="/583C4A50/"/>
+      <tstamp>5845A01A</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_01X02</value>
+      <footprint>fdsp_connector:RIACON101-2</footprint>
+      <datasheet>http://www.mouser.com/ds/2/418/NG_CD_796911_B2-715370.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">571-796911-2</field>
+      </fields>
+      <libsource lib="fdsp_pinhead" part="CONN_01X02"/>
+      <sheetpath names="/Amp_IC-B/" tstamps="/583C4A50/"/>
+      <tstamp>5845A042</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>680n/50V</value>
+      <footprint>fdsp_capacitor:C_1206</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c03e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GCM31CR71H684KA7L</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-B/" tstamps="/583C4A50/"/>
+      <tstamp>5845A050</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>15u</value>
+      <footprint>fdsp_inductor:Choke_SMD_6.0x6.0</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/product-1023288.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-1264EY-150MP3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="L"/>
+      <sheetpath names="/Amp_IC-B/" tstamps="/583C4A50/"/>
+      <tstamp>5845A058</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>220n/25V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM18R71E223KA01J</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-B/" tstamps="/583C4A50/"/>
+      <tstamp>5845A060</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>1u/16V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM188R71C105KE5D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-B/" tstamps="/583C4A50/"/>
+      <tstamp>5845A068</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>1u/16V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM188R71C105KE5D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-B/" tstamps="/583C4A50/"/>
+      <tstamp>5845A070</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100n/50V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM39X104K50D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-B/" tstamps="/583C4A50/"/>
+      <tstamp>5845A078</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>2k4</value>
+      <footprint>fdsp_resistor:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">71-CRCW0603-2.4K-E3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/Amp_IC-B/" tstamps="/583C4A50/"/>
+      <tstamp>5845A080</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>100u/35V</value>
+      <footprint>fdsp_capacitor:C_Radial_D8_L11.5_P3.5</footprint>
+      <datasheet>http://www.mouser.com/ds/2/315/ABA0000C1012-947489.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">667-EEU-FC1V101</field>
+      </fields>
+      <libsource lib="fdsp_device" part="CP"/>
+      <sheetpath names="/Amp_IC-B/" tstamps="/583C4A50/"/>
+      <tstamp>5845A088</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1u/16V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM188R71C105KE5D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-B/" tstamps="/583C4A50/"/>
+      <tstamp>5845A090</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>22k</value>
+      <footprint>fdsp_resistor:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">71-CRCW0603-22K-E3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/Amp_IC-B/" tstamps="/583C4A50/"/>
+      <tstamp>5845A6A4</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TAS5720M</value>
+      <footprint>fdsp_housing:VQFN-32_4x4mm_Pitch0.4mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tas5720m.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">595-TAS5720MRSMT</field>
+      </fields>
+      <libsource lib="fdsp_amplifier" part="TAS5720"/>
+      <sheetpath names="/Amp_IC-C/" tstamps="/583C4C7B/"/>
+      <tstamp>5845ECB6</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>100n/50V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM39X104K50D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-C/" tstamps="/583C4C7B/"/>
+      <tstamp>5845ECD7</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>220n/25V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM18R71E223KA01J</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-C/" tstamps="/583C4C7B/"/>
+      <tstamp>5845ECF5</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>1u/16V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM188R71C105KE5D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-C/" tstamps="/583C4C7B/"/>
+      <tstamp>5845ED46</tstamp>
+    </comp>
+    <comp ref="L6">
+      <value>15u</value>
+      <footprint>fdsp_inductor:Choke_SMD_6.0x6.0</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/product-1023288.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-1264EY-150MP3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="L"/>
+      <sheetpath names="/Amp_IC-C/" tstamps="/583C4C7B/"/>
+      <tstamp>5845ED50</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>680n/50V</value>
+      <footprint>fdsp_capacitor:C_1206</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c03e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GCM31CR71H684KA7L</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-C/" tstamps="/583C4C7B/"/>
+      <tstamp>5845ED58</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>100u/35V</value>
+      <footprint>fdsp_capacitor:C_Radial_D8_L11.5_P3.5</footprint>
+      <datasheet>http://www.mouser.com/ds/2/315/ABA0000C1012-947489.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">667-EEU-FC1V101</field>
+      </fields>
+      <libsource lib="fdsp_device" part="CP"/>
+      <sheetpath names="/Amp_IC-C/" tstamps="/583C4C7B/"/>
+      <tstamp>5845ED70</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>100k</value>
+      <footprint>fdsp_resistor:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">71-CRCW0603-100K-E3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/Amp_IC-C/" tstamps="/583C4C7B/"/>
+      <tstamp>5845ED83</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/445/150060RS75000-368563.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">710-150060RS75000</field>
+      </fields>
+      <libsource lib="fdsp_device" part="LED"/>
+      <sheetpath names="/Amp_IC-C/" tstamps="/583C4C7B/"/>
+      <tstamp>5845ED8B</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>620</value>
+      <footprint>fdsp_resistor:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">71-CRCW0603-620-E3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/Amp_IC-C/" tstamps="/583C4C7B/"/>
+      <tstamp>5845ED93</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>2k4</value>
+      <footprint>fdsp_resistor:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">71-CRCW0603-2.4K-E3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/Amp_IC-C/" tstamps="/583C4C7B/"/>
+      <tstamp>5845EDAC</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_01X02</value>
+      <footprint>fdsp_connector:RIACON101-2</footprint>
+      <datasheet>http://www.mouser.com/ds/2/418/NG_CD_796911_B2-715370.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">571-796911-2</field>
+      </fields>
+      <libsource lib="fdsp_pinhead" part="CONN_01X02"/>
+      <sheetpath names="/Amp_IC-C/" tstamps="/583C4C7B/"/>
+      <tstamp>5845EDD4</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>680n/50V</value>
+      <footprint>fdsp_capacitor:C_1206</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c03e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GCM31CR71H684KA7L</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-C/" tstamps="/583C4C7B/"/>
+      <tstamp>5845EDE2</tstamp>
+    </comp>
+    <comp ref="L7">
+      <value>15u</value>
+      <footprint>fdsp_inductor:Choke_SMD_6.0x6.0</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/product-1023288.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-1264EY-150MP3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="L"/>
+      <sheetpath names="/Amp_IC-C/" tstamps="/583C4C7B/"/>
+      <tstamp>5845EDEA</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>220n/25V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM18R71E223KA01J</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-C/" tstamps="/583C4C7B/"/>
+      <tstamp>5845EDF2</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>1u/16V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM188R71C105KE5D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-C/" tstamps="/583C4C7B/"/>
+      <tstamp>5845EDFA</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>1u/16V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM188R71C105KE5D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-C/" tstamps="/583C4C7B/"/>
+      <tstamp>5845EE02</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>100n/50V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM39X104K50D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-C/" tstamps="/583C4C7B/"/>
+      <tstamp>5845EE0A</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>2k4</value>
+      <footprint>fdsp_resistor:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">71-CRCW0603-2.4K-E3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/Amp_IC-C/" tstamps="/583C4C7B/"/>
+      <tstamp>5845EE12</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>100u/35V</value>
+      <footprint>fdsp_capacitor:C_Radial_D8_L11.5_P3.5</footprint>
+      <datasheet>http://www.mouser.com/ds/2/315/ABA0000C1012-947489.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">667-EEU-FC1V101</field>
+      </fields>
+      <libsource lib="fdsp_device" part="CP"/>
+      <sheetpath names="/Amp_IC-C/" tstamps="/583C4C7B/"/>
+      <tstamp>5845EE1A</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>1u/16V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM188R71C105KE5D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-C/" tstamps="/583C4C7B/"/>
+      <tstamp>5845EE22</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>22k</value>
+      <footprint>fdsp_resistor:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">71-CRCW0603-22K-E3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/Amp_IC-C/" tstamps="/583C4C7B/"/>
+      <tstamp>5845F288</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>TAS5720M</value>
+      <footprint>fdsp_housing:VQFN-32_4x4mm_Pitch0.4mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tas5720m.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">595-TAS5720MRSMT</field>
+      </fields>
+      <libsource lib="fdsp_amplifier" part="TAS5720"/>
+      <sheetpath names="/Amp_IC-D/" tstamps="/583C4CA8/"/>
+      <tstamp>58460189</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>100n/50V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM39X104K50D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-D/" tstamps="/583C4CA8/"/>
+      <tstamp>584601AA</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>220n/25V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM18R71E223KA01J</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-D/" tstamps="/583C4CA8/"/>
+      <tstamp>584601C8</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>1u/16V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM188R71C105KE5D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-D/" tstamps="/583C4CA8/"/>
+      <tstamp>58460219</tstamp>
+    </comp>
+    <comp ref="L8">
+      <value>15u</value>
+      <footprint>fdsp_inductor:Choke_SMD_6.0x6.0</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/product-1023288.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-1264EY-150MP3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="L"/>
+      <sheetpath names="/Amp_IC-D/" tstamps="/583C4CA8/"/>
+      <tstamp>58460223</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>680n/50V</value>
+      <footprint>fdsp_capacitor:C_1206</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c03e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GCM31CR71H684KA7L</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-D/" tstamps="/583C4CA8/"/>
+      <tstamp>5846022B</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>100u/35V</value>
+      <footprint>fdsp_capacitor:C_Radial_D8_L11.5_P3.5</footprint>
+      <datasheet>http://www.mouser.com/ds/2/315/ABA0000C1012-947489.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">667-EEU-FC1V101</field>
+      </fields>
+      <libsource lib="fdsp_device" part="CP"/>
+      <sheetpath names="/Amp_IC-D/" tstamps="/583C4CA8/"/>
+      <tstamp>58460243</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>100k</value>
+      <footprint>fdsp_resistor:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">71-CRCW0603-100K-E3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/Amp_IC-D/" tstamps="/583C4CA8/"/>
+      <tstamp>5846024F</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/445/150060RS75000-368563.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">710-150060RS75000</field>
+      </fields>
+      <libsource lib="fdsp_device" part="LED"/>
+      <sheetpath names="/Amp_IC-D/" tstamps="/583C4CA8/"/>
+      <tstamp>58460257</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>620</value>
+      <footprint>fdsp_resistor:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">71-CRCW0603-620-E3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/Amp_IC-D/" tstamps="/583C4CA8/"/>
+      <tstamp>5846025F</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>2k4</value>
+      <footprint>fdsp_resistor:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">71-CRCW0603-2.4K-E3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/Amp_IC-D/" tstamps="/583C4CA8/"/>
+      <tstamp>58460278</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_01X02</value>
+      <footprint>fdsp_connector:RIACON101-2</footprint>
+      <datasheet>http://www.mouser.com/ds/2/418/NG_CD_796911_B2-715370.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">571-796911-2</field>
+      </fields>
+      <libsource lib="fdsp_pinhead" part="CONN_01X02"/>
+      <sheetpath names="/Amp_IC-D/" tstamps="/583C4CA8/"/>
+      <tstamp>584602A0</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>680n/50V</value>
+      <footprint>fdsp_capacitor:C_1206</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c03e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GCM31CR71H684KA7L</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-D/" tstamps="/583C4CA8/"/>
+      <tstamp>584602AE</tstamp>
+    </comp>
+    <comp ref="L9">
+      <value>15u</value>
+      <footprint>fdsp_inductor:Choke_SMD_6.0x6.0</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/product-1023288.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-1264EY-150MP3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="L"/>
+      <sheetpath names="/Amp_IC-D/" tstamps="/583C4CA8/"/>
+      <tstamp>584602B6</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>220n/25V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM18R71E223KA01J</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-D/" tstamps="/583C4CA8/"/>
+      <tstamp>584602BE</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>1u/16V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM188R71C105KE5D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-D/" tstamps="/583C4CA8/"/>
+      <tstamp>584602C6</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>1u/16V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM188R71C105KE5D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-D/" tstamps="/583C4CA8/"/>
+      <tstamp>584602CE</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>100n/50V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM39X104K50D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-D/" tstamps="/583C4CA8/"/>
+      <tstamp>584602D6</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>2k4</value>
+      <footprint>fdsp_resistor:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">71-CRCW0603-2.4K-E3</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/Amp_IC-D/" tstamps="/583C4CA8/"/>
+      <tstamp>584602DE</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>100u/35V</value>
+      <footprint>fdsp_capacitor:C_Radial_D8_L11.5_P3.5</footprint>
+      <datasheet>http://www.mouser.com/ds/2/315/ABA0000C1012-947489.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">667-EEU-FC1V101</field>
+      </fields>
+      <libsource lib="fdsp_device" part="CP"/>
+      <sheetpath names="/Amp_IC-D/" tstamps="/583C4CA8/"/>
+      <tstamp>584602E6</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>1u/16V</value>
+      <footprint>fdsp_capacitor:C_0603</footprint>
+      <datasheet>http://www.murata.com/products/catalog/pdf/c02e.pdf</datasheet>
+      <fields>
+        <field name="Mouser_Part_No">81-GRM188R71C105KE5D</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/Amp_IC-D/" tstamps="/583C4CA8/"/>
+      <tstamp>584602EE</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="fdsp_device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_pinhead" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_device" part="D_Schottky">
+      <description>Diode schottky</description>
+      <footprints>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>Diode_*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_device" part="FILTER">
+      <description>Filtre EMI</description>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FILTER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_device" part="JUMPER">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">JUMPER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_device" part="L">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_regulator" part="LM284x">
+      <description>Stepdown DC/DC switching regulator</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM284x</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CB" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="SHDN" type="input"/>
+        <pin num="5" name="Vin" type="input"/>
+        <pin num="6" name="SW" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_device" part="R_PACK4">
+      <description>4 resistors Pack</description>
+      <fields>
+        <field name="Reference">RP</field>
+        <field name="Value">R_PACK4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="R4" type="passive"/>
+        <pin num="6" name="R3" type="passive"/>
+        <pin num="7" name="R2" type="passive"/>
+        <pin num="8" name="R1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_connector" part="STDCONN">
+      <description>FreeDSP Standard Extension Header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X08</fp>
+        <fp>Pin_Header_Angled_2X08</fp>
+        <fp>Socket_Strip_Straight_2X08</fp>
+        <fp>Socket_Strip_Angled_2X08</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">STDCONN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V+" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="MDI" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="MDO" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="BCLK" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="LRCLK" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="SDA" type="passive"/>
+        <pin num="12" name="GND" type="passive"/>
+        <pin num="13" name="SCL" type="passive"/>
+        <pin num="14" name="GND" type="passive"/>
+        <pin num="15" name="MCLK" type="passive"/>
+        <pin num="16" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_amplifier" part="TAS5720">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TAS5720</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VREF_N" type="input"/>
+        <pin num="2" name="FAULTZ" type="input"/>
+        <pin num="3" name="SDZ" type="input"/>
+        <pin num="4" name="LRCLK" type="input"/>
+        <pin num="5" name="MCLK" type="input"/>
+        <pin num="6" name="BCLK" type="input"/>
+        <pin num="7" name="SDIN" type="input"/>
+        <pin num="8" name="SCL" type="input"/>
+        <pin num="9" name="SDA" type="input"/>
+        <pin num="10" name="GND" type="input"/>
+        <pin num="11" name="DVDD" type="input"/>
+        <pin num="12" name="ADR1" type="input"/>
+        <pin num="13" name="ADR0" type="input"/>
+        <pin num="14" name="PVDD" type="input"/>
+        <pin num="15" name="PVDD" type="input"/>
+        <pin num="16" name="OUT_N" type="input"/>
+        <pin num="17" name="OUT_N" type="input"/>
+        <pin num="18" name="BST_N" type="input"/>
+        <pin num="19" name="PGND" type="input"/>
+        <pin num="20" name="PGND" type="input"/>
+        <pin num="21" name="PGND" type="input"/>
+        <pin num="22" name="PGND" type="input"/>
+        <pin num="23" name="BST_P" type="input"/>
+        <pin num="24" name="OUT_P" type="input"/>
+        <pin num="25" name="OUT_P" type="input"/>
+        <pin num="26" name="PVDD" type="input"/>
+        <pin num="27" name="PVDD" type="input"/>
+        <pin num="28" name="AVDD" type="input"/>
+        <pin num="29" name="GND" type="input"/>
+        <pin num="30" name="GVDD" type="input"/>
+        <pin num="31" name="VREG" type="input"/>
+        <pin num="32" name="VCOM" type="input"/>
+        <pin num="33" name="Thermal_Pad" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_device" part="TVS">
+      <description>Transient voltage suppressor diode (bi-directional)</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TVS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="fdsp_pinhead">
+      <uri>J:\sMn\KiCadProjects\freeDSP-KiCadLibrary\Symbol\fdsp_pinhead.lib</uri>
+    </library>
+    <library logical="fdsp_amplifier">
+      <uri>J:\sMn\KiCadProjects\freeDSP-KiCadLibrary\Symbol\fdsp_amplifier.lib</uri>
+    </library>
+    <library logical="fdsp_device">
+      <uri>J:\sMn\KiCadProjects\freeDSP-KiCadLibrary\Symbol\fdsp_device.lib</uri>
+    </library>
+    <library logical="fdsp_regulator">
+      <uri>J:\sMn\KiCadProjects\freeDSP-KiCadLibrary\Symbol\fdsp_regulator.lib</uri>
+    </library>
+    <library logical="fdsp_connector">
+      <uri>J:\sMn\KiCadProjects\freeDSP-KiCadLibrary\Symbol\fdsp_connector.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U3" pin="29"/>
+      <node ref="U3" pin="19"/>
+      <node ref="C28" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U3" pin="22"/>
+      <node ref="C22" pin="2"/>
+      <node ref="U3" pin="33"/>
+      <node ref="U3" pin="21"/>
+      <node ref="U3" pin="20"/>
+      <node ref="U3" pin="10"/>
+      <node ref="U2" pin="29"/>
+      <node ref="U2" pin="19"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U2" pin="33"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U2" pin="22"/>
+      <node ref="U2" pin="21"/>
+      <node ref="U2" pin="20"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U5" pin="29"/>
+      <node ref="U5" pin="19"/>
+      <node ref="C52" pin="1"/>
+      <node ref="C45" pin="2"/>
+      <node ref="C44" pin="1"/>
+      <node ref="C48" pin="2"/>
+      <node ref="C51" pin="1"/>
+      <node ref="C43" pin="1"/>
+      <node ref="C47" pin="2"/>
+      <node ref="C46" pin="2"/>
+      <node ref="U5" pin="33"/>
+      <node ref="U5" pin="22"/>
+      <node ref="U5" pin="21"/>
+      <node ref="U5" pin="20"/>
+      <node ref="U5" pin="10"/>
+      <node ref="U4" pin="29"/>
+      <node ref="U4" pin="19"/>
+      <node ref="C40" pin="1"/>
+      <node ref="C36" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="C35" pin="2"/>
+      <node ref="U4" pin="33"/>
+      <node ref="C34" pin="2"/>
+      <node ref="U4" pin="22"/>
+      <node ref="U4" pin="21"/>
+      <node ref="U4" pin="20"/>
+      <node ref="U4" pin="10"/>
+      <node ref="C11" pin="2"/>
+      <node ref="P2" pin="12"/>
+      <node ref="P2" pin="10"/>
+      <node ref="D2" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="P2" pin="14"/>
+      <node ref="C1" pin="1"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="P2" pin="4"/>
+      <node ref="P2" pin="6"/>
+      <node ref="U1" pin="2"/>
+      <node ref="P2" pin="16"/>
+      <node ref="C2" pin="1"/>
+      <node ref="P2" pin="8"/>
+      <node ref="C4" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="2" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="3" name="+3V3">
+      <node ref="R10" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C44" pin="2"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R17" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="C20" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U4" pin="11"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U3" pin="11"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U5" pin="11"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U2" pin="11"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="4" name="Net-(C1-Pad2)">
+      <node ref="D2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="5" name="VIN">
+      <node ref="D1" pin="1"/>
+      <node ref="FB1" pin="1"/>
+      <node ref="FB2" pin="1"/>
+    </net>
+    <net code="6" name="Net-(P2-Pad15)">
+      <node ref="RP1" pin="6"/>
+      <node ref="P2" pin="15"/>
+    </net>
+    <net code="7" name="SDATA">
+      <node ref="U5" pin="7"/>
+      <node ref="U4" pin="7"/>
+      <node ref="U2" pin="7"/>
+      <node ref="RP1" pin="1"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="8" name="BCLK">
+      <node ref="U4" pin="6"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U5" pin="6"/>
+      <node ref="RP1" pin="2"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="9" name="MCLK">
+      <node ref="U5" pin="5"/>
+      <node ref="RP1" pin="3"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="10" name="LRCLK">
+      <node ref="U3" pin="4"/>
+      <node ref="U5" pin="4"/>
+      <node ref="RP1" pin="4"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="11" name="Net-(P2-Pad9)">
+      <node ref="P2" pin="9"/>
+      <node ref="RP1" pin="5"/>
+    </net>
+    <net code="12" name="Net-(P2-Pad7)">
+      <node ref="RP1" pin="7"/>
+      <node ref="P2" pin="7"/>
+    </net>
+    <net code="13" name="Net-(P2-Pad5)">
+      <node ref="RP1" pin="8"/>
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="14" name="ADRESS">
+      <node ref="U4" pin="12"/>
+      <node ref="U5" pin="12"/>
+      <node ref="U3" pin="12"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U2" pin="12"/>
+      <node ref="JP1" pin="2"/>
+    </net>
+    <net code="15" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="16" name="VCC">
+      <node ref="U3" pin="14"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U4" pin="26"/>
+      <node ref="U4" pin="27"/>
+      <node ref="U4" pin="28"/>
+      <node ref="C33" pin="1"/>
+      <node ref="U4" pin="14"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C35" pin="1"/>
+      <node ref="U3" pin="15"/>
+      <node ref="C36" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U5" pin="26"/>
+      <node ref="U5" pin="27"/>
+      <node ref="U5" pin="28"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C47" pin="1"/>
+      <node ref="U2" pin="14"/>
+      <node ref="C23" pin="1"/>
+      <node ref="U2" pin="28"/>
+      <node ref="U2" pin="27"/>
+      <node ref="FB2" pin="2"/>
+      <node ref="C48" pin="1"/>
+      <node ref="U2" pin="15"/>
+      <node ref="C45" pin="1"/>
+      <node ref="U5" pin="14"/>
+      <node ref="U4" pin="15"/>
+      <node ref="U3" pin="26"/>
+      <node ref="U3" pin="27"/>
+      <node ref="U3" pin="28"/>
+      <node ref="C34" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="U5" pin="15"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U2" pin="26"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C46" pin="1"/>
+    </net>
+    <net code="17" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="FB1" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="18" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="19" name="Net-(P2-Pad11)">
+      <node ref="P2" pin="11"/>
+    </net>
+    <net code="20" name="Net-(P2-Pad13)">
+      <node ref="P2" pin="13"/>
+    </net>
+    <net code="21" name="Net-(C3-Pad2)">
+      <node ref="D3" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="22" name="Net-(P2-Pad1)">
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="23" name="Net-(P2-Pad3)">
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="24" name="Net-(D5-Pad1)">
+      <node ref="U2" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="D5" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="25" name="Net-(D5-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="26" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2"/>
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="27" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="U2" pin="32"/>
+    </net>
+    <net code="28" name="Net-(C5-Pad1)">
+      <node ref="U2" pin="31"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="29" name="Net-(C15-Pad2)">
+      <node ref="P3" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="30" name="Net-(C16-Pad2)">
+      <node ref="P3" pin="1"/>
+      <node ref="L3" pin="2"/>
+      <node ref="C16" pin="2"/>
+    </net>
+    <net code="31" name="Net-(R6-Pad2)">
+      <node ref="U2" pin="9"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="32" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="33" name="Net-(C14-Pad2)">
+      <node ref="U2" pin="18"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="34" name="Net-(C14-Pad1)">
+      <node ref="U2" pin="17"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U2" pin="16"/>
+      <node ref="L3" pin="1"/>
+    </net>
+    <net code="35" name="Net-(C5-Pad2)">
+      <node ref="U2" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="36" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1"/>
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="37" name="Net-(C13-Pad2)">
+      <node ref="L2" pin="1"/>
+      <node ref="U2" pin="25"/>
+      <node ref="U2" pin="24"/>
+      <node ref="C13" pin="2"/>
+    </net>
+    <net code="38" name="Net-(D6-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="39" name="Net-(D6-Pad1)">
+      <node ref="U3" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="40" name="Net-(C18-Pad1)">
+      <node ref="U3" pin="32"/>
+      <node ref="C18" pin="1"/>
+    </net>
+    <net code="41" name="Net-(C17-Pad1)">
+      <node ref="C17" pin="1"/>
+      <node ref="U3" pin="31"/>
+    </net>
+    <net code="42" name="Net-(C19-Pad2)">
+      <node ref="U3" pin="30"/>
+      <node ref="C19" pin="2"/>
+    </net>
+    <net code="43" name="Net-(C27-Pad2)">
+      <node ref="P4" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="L4" pin="2"/>
+    </net>
+    <net code="44" name="Net-(C28-Pad2)">
+      <node ref="P4" pin="1"/>
+      <node ref="C28" pin="2"/>
+      <node ref="L5" pin="2"/>
+    </net>
+    <net code="45" name="Net-(R12-Pad2)">
+      <node ref="U3" pin="9"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="46" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="47" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="48" name="Net-(C26-Pad1)">
+      <node ref="U3" pin="16"/>
+      <node ref="U3" pin="17"/>
+      <node ref="L5" pin="1"/>
+      <node ref="C26" pin="1"/>
+    </net>
+    <net code="49" name="Net-(C26-Pad2)">
+      <node ref="U3" pin="18"/>
+      <node ref="C26" pin="2"/>
+    </net>
+    <net code="50" name="Net-(C25-Pad2)">
+      <node ref="C25" pin="2"/>
+      <node ref="L4" pin="1"/>
+      <node ref="U3" pin="25"/>
+      <node ref="U3" pin="24"/>
+    </net>
+    <net code="51" name="Net-(C17-Pad2)">
+      <node ref="U3" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C17" pin="2"/>
+    </net>
+    <net code="52" name="Net-(C25-Pad1)">
+      <node ref="U3" pin="23"/>
+      <node ref="C25" pin="1"/>
+    </net>
+    <net code="53" name="Net-(D7-Pad2)">
+      <node ref="R14" pin="2"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="54" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1"/>
+      <node ref="U4" pin="3"/>
+      <node ref="R16" pin="2"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="55" name="Net-(C31-Pad2)">
+      <node ref="U4" pin="30"/>
+      <node ref="C31" pin="2"/>
+    </net>
+    <net code="56" name="Net-(C30-Pad1)">
+      <node ref="U4" pin="32"/>
+      <node ref="C30" pin="1"/>
+    </net>
+    <net code="57" name="Net-(C29-Pad1)">
+      <node ref="C29" pin="1"/>
+      <node ref="U4" pin="31"/>
+    </net>
+    <net code="58" name="Net-(C39-Pad2)">
+      <node ref="P5" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="L6" pin="2"/>
+    </net>
+    <net code="59" name="Net-(C40-Pad2)">
+      <node ref="P5" pin="1"/>
+      <node ref="L7" pin="2"/>
+      <node ref="C40" pin="2"/>
+    </net>
+    <net code="60" name="Net-(R17-Pad2)">
+      <node ref="U4" pin="9"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="61" name="Net-(R18-Pad1)">
+      <node ref="U4" pin="13"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="62" name="Net-(R15-Pad2)">
+      <node ref="U4" pin="8"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="63" name="Net-(C38-Pad1)">
+      <node ref="U4" pin="17"/>
+      <node ref="C38" pin="1"/>
+      <node ref="U4" pin="16"/>
+      <node ref="L7" pin="1"/>
+    </net>
+    <net code="64" name="Net-(C38-Pad2)">
+      <node ref="C38" pin="2"/>
+      <node ref="U4" pin="18"/>
+    </net>
+    <net code="65" name="Net-(C37-Pad2)">
+      <node ref="L6" pin="1"/>
+      <node ref="U4" pin="25"/>
+      <node ref="C37" pin="2"/>
+      <node ref="U4" pin="24"/>
+    </net>
+    <net code="66" name="Net-(C29-Pad2)">
+      <node ref="U4" pin="1"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C30" pin="2"/>
+    </net>
+    <net code="67" name="Net-(C37-Pad1)">
+      <node ref="U4" pin="23"/>
+      <node ref="C37" pin="1"/>
+    </net>
+    <net code="68" name="Net-(D8-Pad1)">
+      <node ref="U5" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="D8" pin="1"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="69" name="Net-(D8-Pad2)">
+      <node ref="R19" pin="2"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="70" name="Net-(C41-Pad2)">
+      <node ref="U5" pin="1"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C41" pin="2"/>
+    </net>
+    <net code="71" name="Net-(C42-Pad1)">
+      <node ref="C42" pin="1"/>
+      <node ref="U5" pin="32"/>
+    </net>
+    <net code="72" name="Net-(C41-Pad1)">
+      <node ref="C41" pin="1"/>
+      <node ref="U5" pin="31"/>
+    </net>
+    <net code="73" name="Net-(C43-Pad2)">
+      <node ref="U5" pin="30"/>
+      <node ref="C43" pin="2"/>
+    </net>
+    <net code="74" name="Net-(C51-Pad2)">
+      <node ref="C51" pin="2"/>
+      <node ref="L8" pin="2"/>
+      <node ref="P6" pin="2"/>
+    </net>
+    <net code="75" name="Net-(C52-Pad2)">
+      <node ref="L9" pin="2"/>
+      <node ref="P6" pin="1"/>
+      <node ref="C52" pin="2"/>
+    </net>
+    <net code="76" name="Net-(C50-Pad1)">
+      <node ref="C50" pin="1"/>
+      <node ref="L9" pin="1"/>
+      <node ref="U5" pin="17"/>
+      <node ref="U5" pin="16"/>
+    </net>
+    <net code="77" name="Net-(R22-Pad2)">
+      <node ref="U5" pin="9"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="78" name="Net-(R20-Pad2)">
+      <node ref="U5" pin="8"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="79" name="Net-(C50-Pad2)">
+      <node ref="C50" pin="2"/>
+      <node ref="U5" pin="18"/>
+    </net>
+    <net code="80" name="Net-(C49-Pad2)">
+      <node ref="C49" pin="2"/>
+      <node ref="L8" pin="1"/>
+      <node ref="U5" pin="24"/>
+      <node ref="U5" pin="25"/>
+    </net>
+    <net code="81" name="Net-(C49-Pad1)">
+      <node ref="C49" pin="1"/>
+      <node ref="U5" pin="23"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,658 @@
+EESchema Schematic File Version 2
+LIBS:fdsp_amplifier
+LIBS:fdsp_connector
+LIBS:fdsp_converter
+LIBS:fdsp_device
+LIBS:fdsp_digital
+LIBS:fdsp_dsp
+LIBS:fdsp_mechanical
+LIBS:fdsp_pinhead
+LIBS:fdsp_power
+LIBS:fdsp_regulator
+LIBS:fdsp_transistor
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:freeDSPx-AMPx4-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title "freeDSPx-AMPx4"
+Date "2017-02-19"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LM284x U1
+U 1 1 58373291
+P 3050 5550
+F 0 "U1" H 3300 5850 60  0000 C CNN
+F 1 "LM2841X" H 2950 5850 60  0000 C CNN
+F 2 "fdsp_housing:SOT23-6_1.7x3.0mm_Pitch0.95mm" H 3100 5550 60  0001 C CNN
+F 3 "http://www.mouser.de/ProductDetail/Texas-Instruments/LM2841XMK-ADJL-NOPB/?qs=sGAEpiMZZMvu8NZDyZ4K0RhgAU4e%252b57x" H 3100 5550 60  0001 C CNN
+F 4 "926-M2841XMKADJLNOPB" H 3050 5550 60  0001 C CNN "Mouser_Part_No"
+	1    3050 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 58373318
+P 2450 6100
+F 0 "#PWR01" H 2450 5850 50  0001 C CNN
+F 1 "GND" H 2450 5950 50  0000 C CNN
+F 2 "" H 2450 6100 60  0000 C CNN
+F 3 "" H 2450 6100 60  0000 C CNN
+	1    2450 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 5700 2450 5700
+Wire Wire Line
+	2450 5700 2450 6100
+Wire Wire Line
+	3550 5400 3650 5400
+Wire Wire Line
+	3650 5400 3650 5300
+Wire Wire Line
+	3650 5300 3750 5300
+Wire Wire Line
+	3550 5550 4150 5550
+Wire Wire Line
+	4150 5550 4150 5300
+Wire Wire Line
+	4050 5300 4350 5300
+$Comp
+L R R2
+U 1 1 583733F1
+P 3900 5700
+F 0 "R2" V 3980 5700 50  0000 C CNN
+F 1 "3k4" V 3900 5700 50  0000 C CNN
+F 2 "fdsp_resistor:R_0603" V 3830 5700 30  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf" H 3900 5700 30  0001 C CNN
+F 4 "71-CRCW0603-3.4K-E3" V 3900 5700 60  0001 C CNN "Mouser_Part_No"
+	1    3900 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 5837348B
+P 3650 5950
+F 0 "R1" V 3730 5950 50  0000 C CNN
+F 1 "1k2" V 3650 5950 50  0000 C CNN
+F 2 "fdsp_resistor:R_0603" V 3580 5950 30  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf" H 3650 5950 30  0001 C CNN
+F 4 "71-CRCW0603-1.02K-E3" V 3650 5950 60  0001 C CNN "Mouser_Part_No"
+	1    3650 5950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3550 5700 3750 5700
+Wire Wire Line
+	3650 5700 3650 5800
+Connection ~ 3650 5700
+$Comp
+L L L1
+U 1 1 5837350A
+P 4650 5300
+F 0 "L1" V 4600 5300 50  0000 C CNN
+F 1 "47u" V 4750 5300 50  0000 C CNN
+F 2 "fdsp_inductor:L_1207" H 4650 5300 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/F3115-532756.pdf" H 4650 5300 60  0001 C CNN
+F 4 "80-L1207C470KPWST" V 4650 5300 60  0001 C CNN "Mouser_Part_No"
+	1    4650 5300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4150 5300
+Wire Wire Line
+	4050 5700 5050 5700
+Wire Wire Line
+	5050 5700 5050 5300
+Wire Wire Line
+	4950 5300 5250 5300
+Wire Wire Line
+	2550 5550 2450 5550
+Wire Wire Line
+	2450 5550 2450 5400
+Wire Wire Line
+	2150 5400 2550 5400
+$Comp
+L C C2
+U 1 1 583736AE
+P 2250 5650
+F 0 "C2" H 2275 5750 50  0000 L CNN
+F 1 "10u/35V" H 2275 5550 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206" H 2288 5500 30  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/c02e-2905.pdf" H 2250 5650 60  0001 C CNN
+F 4 "81-GRM319R6YA106KA2D" H 2250 5650 60  0001 C CNN "Mouser_Part_No"
+	1    2250 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5837373A
+P 2250 6100
+F 0 "#PWR02" H 2250 5850 50  0001 C CNN
+F 1 "GND" H 2250 5950 50  0000 C CNN
+F 2 "" H 2250 6100 60  0000 C CNN
+F 3 "" H 2250 6100 60  0000 C CNN
+	1    2250 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 5400 2250 5500
+Connection ~ 2450 5400
+$Comp
+L C C4
+U 1 1 583737A8
+P 5250 5650
+F 0 "C4" H 5275 5750 50  0000 L CNN
+F 1 "22u/10V" H 5275 5550 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206" H 5288 5500 30  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/c02e-2905.pdf" H 5250 5650 60  0001 C CNN
+F 4 "81-GRM31CR70J226KE9L" H 5250 5650 60  0001 C CNN "Mouser_Part_No"
+	1    5250 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 58373841
+P 5250 6100
+F 0 "#PWR03" H 5250 5850 50  0001 C CNN
+F 1 "GND" H 5250 5950 50  0000 C CNN
+F 2 "" H 5250 6100 60  0000 C CNN
+F 3 "" H 5250 6100 60  0000 C CNN
+	1    5250 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5150 5250 5500
+Connection ~ 5050 5300
+$Comp
+L D_Schottky D3
+U 1 1 58373918
+P 4250 5950
+F 0 "D3" H 4250 6050 50  0000 C CNN
+F 1 "PMEG6010ER" H 4250 5850 50  0000 C CNN
+F 2 "fdsp_diode:SOD-123W" H 4250 5950 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/302/PMEG6010ER-843472.pdf" H 4250 5950 60  0001 C CNN
+F 4 "771-PMEG6010ER115" H 4250 5950 60  0001 C CNN "Mouser_Part_No"
+	1    4250 5950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 5800 4250 5300
+Connection ~ 4250 5300
+$Comp
+L GND #PWR04
+U 1 1 58373AF1
+P 4250 6100
+F 0 "#PWR04" H 4250 5850 50  0001 C CNN
+F 1 "GND" H 4250 5950 50  0000 C CNN
+F 2 "" H 4250 6100 60  0000 C CNN
+F 3 "" H 4250 6100 60  0000 C CNN
+	1    4250 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 58373B14
+P 3650 6100
+F 0 "#PWR05" H 3650 5850 50  0001 C CNN
+F 1 "GND" H 3650 5950 50  0000 C CNN
+F 2 "" H 3650 6100 60  0000 C CNN
+F 3 "" H 3650 6100 60  0000 C CNN
+	1    3650 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L FILTER FB2
+U 1 1 58374051
+P 4050 3450
+F 0 "FB2" H 4050 3600 50  0000 C CNN
+F 1 "115" H 4050 3350 50  0000 C CNN
+F 2 "fdsp_capacitor:C_3312" H 4050 3450 50  0001 C CNN
+F 3 "www.lairdtech.com/products/28f0181-1sr-10" H 4050 3450 50  0001 C CNN
+F 4 "875-28F0181-1SR-10" H 4050 3450 60  0001 C CNN "Mouser_Part_No"
+	1    4050 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 2250 5400
+$Comp
+L GND #PWR06
+U 1 1 5837425C
+P 1650 4150
+F 0 "#PWR06" H 1650 3900 50  0001 C CNN
+F 1 "GND" H 1650 4000 50  0000 C CNN
+F 2 "" H 1650 4150 60  0000 C CNN
+F 3 "" H 1650 4150 60  0000 C CNN
+	1    1650 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR07
+U 1 1 5837454A
+P 5250 5150
+F 0 "#PWR07" H 5250 5000 50  0001 C CNN
+F 1 "+3V3" H 5250 5290 50  0000 C CNN
+F 2 "" H 5250 5150 60  0000 C CNN
+F 3 "" H 5250 5150 60  0000 C CNN
+	1    5250 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 5250 5300
+$Sheet
+S 7700 1250 1700 900 
+U 583C4A10
+F0 "Amp_IC-A" 60
+F1 "Amp_IC-A.sch" 60
+$EndSheet
+$Sheet
+S 7700 2450 1700 900 
+U 583C4A50
+F0 "Amp_IC-B" 60
+F1 "Amp_IC-B.sch" 60
+$EndSheet
+$Sheet
+S 7700 3650 1700 900 
+U 583C4C7B
+F0 "Amp_IC-C" 60
+F1 "Amp_IC-C.sch" 60
+$EndSheet
+$Sheet
+S 7700 4850 1700 900 
+U 583C4CA8
+F0 "Amp_IC-D" 60
+F1 "Amp_IC-D.sch" 60
+$EndSheet
+$Comp
+L STDCONN P2
+U 1 1 583CB71C
+P 2600 1900
+F 0 "P2" H 2600 2350 50  0000 C CNN
+F 1 "STDCONN" H 2600 1450 50  0000 C CNN
+F 2 "fdsp_connector:IDC_Header_Straight_16pins" H 2600 700 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/445/6120xx21621-265830.pdf" H 2600 700 60  0001 C CNN
+F 4 "710-61201621621" H 2600 1900 60  0001 C CNN "Mouser_Part_No"
+	1    2600 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1550 3000 1550
+Wire Wire Line
+	3000 1550 3000 2350
+Wire Wire Line
+	3000 2250 2900 2250
+Wire Wire Line
+	2900 2150 3000 2150
+Connection ~ 3000 2150
+Wire Wire Line
+	2900 2050 3000 2050
+Connection ~ 3000 2050
+Wire Wire Line
+	2900 1950 3000 1950
+Connection ~ 3000 1950
+Wire Wire Line
+	2900 1850 3000 1850
+Connection ~ 3000 1850
+Wire Wire Line
+	2900 1750 3000 1750
+Connection ~ 3000 1750
+Wire Wire Line
+	2900 1650 3000 1650
+Connection ~ 3000 1650
+$Comp
+L GND #PWR08
+U 1 1 583CBC38
+P 3000 2350
+F 0 "#PWR08" H 3000 2100 50  0001 C CNN
+F 1 "GND" H 3000 2200 50  0000 C CNN
+F 2 "" H 3000 2350 60  0000 C CNN
+F 3 "" H 3000 2350 60  0000 C CNN
+	1    3000 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3000 2250
+Text GLabel 1550 1850 0    51   Output ~ 0
+BCLK
+Text GLabel 1550 1950 0    51   Output ~ 0
+MCLK
+Text GLabel 1550 2050 0    51   Output ~ 0
+LRCLK
+Text GLabel 1550 1750 0    51   Output ~ 0
+SDATA
+$Comp
+L R_PACK4 RP1
+U 1 1 583CF200
+P 1850 2100
+F 0 "RP1" H 1850 2550 50  0000 C CNN
+F 1 "33" H 1850 2050 50  0000 C CNN
+F 2 "fdsp_resistor:R_Array_Convex_4x0603" H 1850 2100 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/54/ATCAY-777361.pdf" H 1850 2100 50  0001 C CNN
+F 4 "652-CAY16-330J4LF" H 1850 2100 60  0001 C CNN "Mouser_Part_No"
+	1    1850 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1850 2050 1850
+Wire Wire Line
+	2300 1750 2050 1750
+Wire Wire Line
+	1650 1750 1550 1750
+Wire Wire Line
+	1650 1850 1550 1850
+$Comp
+L +3V3 #PWR09
+U 1 1 583DAB69
+P 5650 5150
+F 0 "#PWR09" H 5650 5000 50  0001 C CNN
+F 1 "+3V3" H 5650 5290 50  0000 C CNN
+F 2 "" H 5650 5150 60  0000 C CNN
+F 3 "" H 5650 5150 60  0000 C CNN
+	1    5650 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 583DAB9B
+P 5650 6100
+F 0 "#PWR010" H 5650 5850 50  0001 C CNN
+F 1 "GND" H 5650 5950 50  0000 C CNN
+F 2 "" H 5650 6100 60  0000 C CNN
+F 3 "" H 5650 6100 60  0000 C CNN
+	1    5650 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 6100 2250 5800
+Wire Wire Line
+	5250 6100 5250 5800
+$Comp
+L LED D4
+U 1 1 583DAE11
+P 5650 5800
+F 0 "D4" H 5650 5900 50  0000 C CNN
+F 1 "LED" H 5650 5700 50  0000 C CNN
+F 2 "fdsp_capacitor:C_0603" H 5650 5800 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/445/150060GS75000-368921.pdf" H 5650 5800 60  0001 C CNN
+F 4 "710-150060GS75000" H 5650 5800 60  0001 C CNN "Mouser_Part_No"
+	1    5650 5800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 5250 5650 5150
+Wire Wire Line
+	5650 5600 5650 5550
+Wire Wire Line
+	5650 6100 5650 6000
+Wire Wire Line
+	1550 3550 1650 3550
+Wire Wire Line
+	1650 3550 1650 4150
+$Comp
+L D_Schottky D1
+U 1 1 583DBD75
+P 3000 3450
+F 0 "D1" H 3000 3550 50  0000 C CNN
+F 1 "SBR10E45P5" H 3000 3350 50  0000 C CNN
+F 2 "fdsp_diode:PowerDI5" H 3000 3450 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/115/SBR10E45P5-756885.pdf" H 3000 3450 60  0001 C CNN
+F 4 "621-SBR10E45P5-7" H 3000 3450 60  0001 C CNN "Mouser_Part_No"
+	1    3000 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 583DC217
+P 2100 4150
+F 0 "#PWR011" H 2100 3900 50  0001 C CNN
+F 1 "GND" H 2100 4000 50  0000 C CNN
+F 2 "" H 2100 4150 60  0000 C CNN
+F 3 "" H 2100 4150 60  0000 C CNN
+	1    2100 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 4150 2100 4050
+Wire Wire Line
+	2100 3750 2100 3450
+$Comp
+L TVS D2
+U 1 1 583DCC2B
+P 2550 3850
+F 0 "D2" H 2550 4000 50  0000 C CNN
+F 1 "5.0SMDJ28CA" H 2550 3700 50  0000 C CNN
+F 2 "fdsp_diode:SMC" H 2550 3850 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/240/Littelfuse_TVS-Diodes_5.0SMDJ-278006.pdf" H 2550 3850 50  0001 C CNN
+F 4 "576-5.0SMDJ28CA" H 2550 3850 60  0001 C CNN "Mouser_Part_No"
+	1    2550 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 583DCD90
+P 2550 4150
+F 0 "#PWR012" H 2550 3900 50  0001 C CNN
+F 1 "GND" H 2550 4000 50  0000 C CNN
+F 2 "" H 2550 4150 60  0000 C CNN
+F 3 "" H 2550 4150 60  0000 C CNN
+	1    2550 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L VIN #PWR013
+U 1 1 583DCE29
+P 3450 3250
+F 0 "#PWR013" H 3450 3100 50  0001 C CNN
+F 1 "VIN" H 3450 3390 50  0000 C CNN
+F 2 "" H 3450 3250 60  0000 C CNN
+F 3 "" H 3450 3250 60  0000 C CNN
+	1    3450 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3250 3450 3450
+$Comp
+L FILTER FB1
+U 1 1 583DD402
+P 1800 5400
+F 0 "FB1" H 1800 5550 50  0000 C CNN
+F 1 "470" H 1800 5300 50  0000 C CNN
+F 2 "fdsp_capacitor:C_0603" H 1800 5400 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/c31e-794748.pdf" H 1800 5400 50  0001 C CNN
+F 4 "81-BLM18PG471SN1D" H 1800 5400 60  0001 C CNN "Mouser_Part_No"
+	1    1800 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 5400 1350 5400
+$Comp
+L VIN #PWR014
+U 1 1 583DD418
+P 1350 5200
+F 0 "#PWR014" H 1350 5050 50  0001 C CNN
+F 1 "VIN" H 1350 5340 50  0000 C CNN
+F 2 "" H 1350 5200 60  0000 C CNN
+F 3 "" H 1350 5200 60  0000 C CNN
+	1    1350 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR015
+U 1 1 583DD726
+P 4550 3250
+F 0 "#PWR015" H 4550 3100 50  0001 C CNN
+F 1 "VCC" H 4550 3400 50  0000 C CNN
+F 2 "" H 4550 3250 60  0000 C CNN
+F 3 "" H 4550 3250 60  0000 C CNN
+	1    4550 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3450 4550 3450
+Wire Wire Line
+	4550 3450 4550 3250
+Wire Wire Line
+	1350 5400 1350 5200
+$Comp
+L C C3
+U 1 1 58432430
+P 3900 5300
+F 0 "C3" H 3925 5400 50  0000 L CNN
+F 1 "100n/50V" H 3925 5200 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0603" H 3938 5150 30  0001 C CNN
+F 3 "http://www.murata.com/products/catalog/pdf/c02e.pdf" H 3900 5300 60  0001 C CNN
+F 4 "81-GRM39X104K50D" H 3900 5300 60  0001 C CNN "Mouser_Part_No"
+	1    3900 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C1
+U 1 1 584327F6
+P 2100 3900
+F 0 "C1" H 2125 4000 50  0000 L CNN
+F 1 "100n/50V" H 2125 3800 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0603" H 2138 3750 30  0001 C CNN
+F 3 "http://www.murata.com/products/catalog/pdf/c02e.pdf" H 2100 3900 60  0001 C CNN
+F 4 "81-GRM39X104K50D" H 2100 3900 60  0001 C CNN "Mouser_Part_No"
+	1    2100 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P1
+U 1 1 584403AD
+P 1350 3500
+F 0 "P1" H 1350 3650 50  0000 C CNN
+F 1 "CONN_01X02" V 1450 3500 50  0000 C CNN
+F 2 "fdsp_connector:RIACON101-2" H 1350 3500 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/418/NG_CD_796911_B2-715370.pdf" H 1350 3500 60  0001 C CNN
+F 4 "571-796911-2" H 1350 3500 60  0001 C CNN "Mouser_Part_No"
+	1    1350 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 58442CA5
+P 5650 5400
+F 0 "R3" V 5730 5400 50  0000 C CNN
+F 1 "620" V 5650 5400 50  0000 C CNN
+F 2 "fdsp_resistor:R_0603" V 5580 5400 30  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf" H 5650 5400 30  0001 C CNN
+F 4 "71-CRCW0603-620-E3" V 5650 5400 60  0001 C CNN "Mouser_Part_No"
+	1    5650 5400
+	-1   0    0    1   
+$EndComp
+Connection ~ 3450 3450
+Wire Wire Line
+	3150 3450 3700 3450
+Wire Wire Line
+	1550 3450 2850 3450
+Wire Wire Line
+	2550 3450 2550 3550
+Connection ~ 2550 3450
+Connection ~ 2100 3450
+Text GLabel 6250 1350 2    51   Output ~ 0
+ADRESS
+$Comp
+L R R8
+U 1 1 584578CD
+P 6050 1900
+F 0 "R8" V 6130 1900 50  0000 C CNN
+F 1 "22k" V 6050 1900 50  0000 C CNN
+F 2 "fdsp_resistor:R_0603" V 5980 1900 30  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf" H 6050 1900 30  0001 C CNN
+F 4 "71-CRCW0603-22K-E3" V 6050 1900 60  0001 C CNN "Mouser_Part_No"
+	1    6050 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L JUMPER JP1
+U 1 1 58457BF5
+P 5700 1900
+F 0 "JP1" H 5700 2050 50  0000 C CNN
+F 1 "JUMPER" H 5700 1820 50  0000 C CNN
+F 2 "fdsp_pinheader:Pin_Header_Straight_1x02" H 5700 1900 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/418/NG_CD_826629_AA_baseFilename-673692.pdf" H 5700 1900 60  0001 C CNN
+F 4 "571-826646-2" H 5700 1900 60  0001 C CNN "Mouser_Part_No"
+	1    5700 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 58458871
+P 6050 2200
+F 0 "#PWR016" H 6050 1950 50  0001 C CNN
+F 1 "GND" H 6050 2050 50  0000 C CNN
+F 2 "" H 6050 2200 60  0000 C CNN
+F 3 "" H 6050 2200 60  0000 C CNN
+	1    6050 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 58458BC2
+P 5700 2200
+F 0 "#PWR017" H 5700 1950 50  0001 C CNN
+F 1 "GND" H 5700 2050 50  0000 C CNN
+F 2 "" H 5700 2200 60  0000 C CNN
+F 3 "" H 5700 2200 60  0000 C CNN
+	1    5700 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2200 6050 2050
+Wire Wire Line
+	6050 1750 6050 1350
+Wire Wire Line
+	5700 1350 6250 1350
+Wire Wire Line
+	5700 1350 5700 1600
+Connection ~ 6050 1350
+Wire Wire Line
+	1650 1950 1550 1950
+Wire Wire Line
+	1650 2050 1550 2050
+Wire Wire Line
+	2050 2050 2200 2050
+Wire Wire Line
+	2050 1950 2100 1950
+Wire Wire Line
+	2100 1950 2100 2250
+Wire Wire Line
+	2200 2050 2200 1950
+Wire Wire Line
+	2200 1950 2300 1950
+Wire Wire Line
+	2100 2250 2300 2250
+$EndSCHEMATC
